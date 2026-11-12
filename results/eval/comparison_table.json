@@ -1,0 +1,30 @@
+{
+  "G0": {
+    "drift_rate": 0.095,
+    "consistency": null,
+    "fluency": null,
+    "retry_rate": 0.0,
+    "fix_success_rate": null
+  },
+  "G1": {
+    "drift_rate": 0.105,
+    "consistency": null,
+    "fluency": null,
+    "retry_rate": 0.0,
+    "fix_success_rate": null
+  },
+  "G2": {
+    "drift_rate": 0.005,
+    "consistency": null,
+    "fluency": null,
+    "retry_rate": 0.08,
+    "fix_success_rate": 0.9375
+  },
+  "G2+": {
+    "drift_rate": null,
+    "consistency": null,
+    "fluency": null,
+    "retry_rate": null,
+    "fix_success_rate": null
+  }
+}

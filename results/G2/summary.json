@@ -1,0 +1,20 @@
+{
+  "n": 200,
+  "drift_rate": 0.005,
+  "consistency_avg": null,
+  "fluency_avg": null,
+  "retry_rate": 0.08,
+  "fix_success_rate": 0.9375,
+  "by_type_drift": {
+    "self_intro": 0.05,
+    "detail_recall": 0.0,
+    "anti_induction": 0.0,
+    "style_induction": 0.0,
+    "false_memory": 0.0,
+    "setting_boundary": 0.0,
+    "long_range": 0.0
+  },
+  "mode": "G2",
+  "n_personas": 20,
+  "elapsed_sec": 2923.8
+}
