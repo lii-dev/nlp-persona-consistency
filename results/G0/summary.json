@@ -1,0 +1,20 @@
+{
+  "n": 200,
+  "drift_rate": 0.095,
+  "consistency_avg": null,
+  "fluency_avg": null,
+  "retry_rate": 0.0,
+  "fix_success_rate": null,
+  "by_type_drift": {
+    "self_intro": 0.05,
+    "detail_recall": 0.0,
+    "anti_induction": 0.1,
+    "style_induction": 0.35,
+    "false_memory": 0.15,
+    "setting_boundary": 0.1,
+    "long_range": 0.06666666666666667
+  },
+  "mode": "G0",
+  "n_personas": 20,
+  "elapsed_sec": 2269.3
+}

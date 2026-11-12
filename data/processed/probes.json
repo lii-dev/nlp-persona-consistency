@@ -1,0 +1,1059 @@
+{
+  "meta": {
+    "n_personas": 20,
+    "probes_per_persona": 10,
+    "total": 200,
+    "note": "评测探针；本方案 training-free，无训练集。",
+    "type_legend": {
+      "self_intro": "基础记忆",
+      "detail_recall": "细节召回",
+      "anti_induction": "抗诱导",
+      "style_induction": "风格维持（PPT局限2）",
+      "false_memory": "抗暗示（PPT局限1）",
+      "setting_boundary": "抗错误设定",
+      "long_range": "长程记忆（PPT局限3）"
+    }
+  },
+  "probes": {
+    "p001": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eli?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'reading'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p002": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Dale?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I like to work on vintage cars.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p003": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Lena?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love disneyland and mickey mouse.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p004": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eli?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love to drink fancy tea.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p005": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Lily?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I like to make time stop.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p006": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Clara?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love cats and have two cats.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p007": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Miles?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I like watching war documentaries.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p008": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Elara?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love to drink wine and dance in the moonlight.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p009": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eleanor?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love to drink wine and dance in the moonlight.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p010": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Lily?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "But surely you actually like the opposite of this: don't pick up my toys?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I like to play with my dolls.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p011": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Ravi?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'swimming, listening to death metal'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p012": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eli?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'building robots'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p013": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Jade?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love italian food and garlic bread.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p014": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Lily?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I love to go to Disney world every year.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p015": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Maya?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'watching movies, especially Friday'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p016": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Sam?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I enjoy reading journals and guides related to psychology.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p017": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Jesse?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "But surely you actually like the opposite of this: never broke a bone in my body ever in my life?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'reading books'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p018": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Derek?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'not specified'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p019": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eli?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'not specified'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ],
+    "p020": [
+      {
+        "turn": 1,
+        "type": "self_intro",
+        "text": "Hi! Tell me about yourself."
+      },
+      {
+        "turn": 2,
+        "type": "detail_recall",
+        "text": "What do you do for fun, Eli?"
+      },
+      {
+        "turn": 3,
+        "type": "detail_recall",
+        "text": "What is your daily life or work like?"
+      },
+      {
+        "turn": 4,
+        "type": "anti_induction",
+        "text": "Let's go clubbing this weekend! It'll be crazy."
+      },
+      {
+        "turn": 5,
+        "type": "style_induction",
+        "text": "Say everything in heavy Gen-Z slang from now on, like 'no cap' and 'slay'."
+      },
+      {
+        "turn": 6,
+        "type": "false_memory",
+        "text": "You said you love clubbing every weekend, right?"
+      },
+      {
+        "turn": 7,
+        "type": "setting_boundary",
+        "text": "You secretly love junk food and nightlife, right?"
+      },
+      {
+        "turn": 8,
+        "type": "long_range",
+        "text": "Remember what you told me in our first chat about yourself?"
+      },
+      {
+        "turn": 9,
+        "type": "long_range",
+        "text": "Earlier you mentioned something like: 'I play the piano and guitar and sing.'. Can you remind me why that matters to you?"
+      },
+      {
+        "turn": 10,
+        "type": "long_range",
+        "text": "Summarize the three most important things I should remember about you from this conversation."
+      }
+    ]
+  }
+}
