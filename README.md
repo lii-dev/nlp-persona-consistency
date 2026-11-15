@@ -26,19 +26,26 @@ python scripts/prepare_personas.py
 python scripts/run_experiment.py --mode G0 --offline-annotate
 python scripts/run_experiment.py --mode G1 --offline-annotate
 python scripts/run_experiment.py --mode G2
-python scripts/run_experiment.py --mode G2+
+python scripts/run_experiment.py --mode G2+          # RAG 记忆 + 强化校验
 
 # 冒烟（先 2 个角色）
 python scripts/run_experiment.py --mode G0 --limit 2 --offline-annotate
 
-# 5) Judge 打分（qwen-plus）
+# 5) Judge 打分
 python scripts/run_judge.py --mode G0
 python scripts/run_judge.py --mode G2
+python scripts/run_judge.py --mode G2+ --sample 40
 
-# 6) 汇总表 + 多角色 demo（展望3）
+# 6) 汇总表 + 多角色协同 demo（展望3）
 python scripts/aggregate_results.py
-python scripts/demo_multi_role.py G2
+python scripts/demo_multi_role.py G2+
 ```
+
+### 三条展望（已接入代码）
+
+1. **校验语义增强**：L1 规则 + L2 few-shot 隐晦冲突识别  
+2. **RAG 人设记忆**：`text-embedding-v3` 检索 + 动态 consolidate  
+3. **多角色协同**：`src/multi_role.py` 并行维持多人设
 
 ## 三档实验
 
@@ -47,7 +54,7 @@ python scripts/demo_multi_role.py G2
 | G0 | 人设平铺 system，无档案无校验 | 漂移确实存在 |
 | G1 | 结构化档案每轮强制读取 | 档案改善基础记忆 |
 | G2 | 档案 + 后置校验 + 重试 | 校验模块是主贡献 |
-| G2+ | G2 + 历史人设回溯 | 缓解长轮次记忆衰减 |
+| G2+ | G2 + 嵌入式 RAG 记忆与动态更新 | 长轮次 / 隐晦冲突 |
 
 ## 目录
 

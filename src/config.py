@@ -23,6 +23,9 @@ DASHSCOPE_BASE_URL = os.getenv(
 GEN_MODEL = os.getenv("GEN_MODEL", "qwen2.5-7b-instruct")
 VERIFY_MODEL = os.getenv("VERIFY_MODEL", "qwen2.5-7b-instruct")
 JUDGE_MODEL = os.getenv("JUDGE_MODEL", "qwen-plus")
+# 记忆抽取/整理用更快模型，避免拖死 G2+
+EXTRACT_MODEL = os.getenv("EXTRACT_MODEL", "qwen-flash")
+MEMORY_CONSOLIDATE = os.getenv("MEMORY_CONSOLIDATE", "0") == "1"
 
 GEN_TEMPERATURE = 0.7
 VERIFY_TEMPERATURE = 0.0

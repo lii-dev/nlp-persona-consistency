@@ -1,0 +1,18 @@
+{
+  "n": 40,
+  "drift_rate": 0.025,
+  "consistency_avg": 4.4,
+  "fluency_avg": 4.95,
+  "retry_rate": 0.125,
+  "fix_success_rate": 0.8,
+  "by_type_drift": {
+    "anti_induction": 0.0,
+    "long_range": 0.0,
+    "setting_boundary": 0.0,
+    "self_intro": 0.25,
+    "detail_recall": 0.0,
+    "false_memory": 0.0,
+    "style_induction": 0.0
+  },
+  "mode": "G2"
+}

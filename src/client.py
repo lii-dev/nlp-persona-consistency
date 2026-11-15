@@ -56,10 +56,12 @@ def chat(
         "messages": messages,
         "temperature": temperature,
     }
-    # json_mode（校验/归档）不截断；生成对话默认限长
+    # 生成对话限长；JSON 模式也必须封顶，否则校验/记忆整理可能拖死请求
     if max_tokens is not None:
         kwargs["max_tokens"] = max_tokens
-    elif not json_mode:
+    elif json_mode:
+        kwargs["max_tokens"] = 800
+    else:
         kwargs["max_tokens"] = GEN_MAX_TOKENS
     if json_mode:
         kwargs["response_format"] = {"type": "json_object"}
@@ -73,8 +75,15 @@ def chat_json(
     *,
     model: str | None = None,
     temperature: float = VERIFY_TEMPERATURE,
+    max_tokens: int | None = 500,
 ) -> dict[str, Any]:
-    raw = chat(messages, model=model, temperature=temperature, json_mode=True)
+    raw = chat(
+        messages,
+        model=model,
+        temperature=temperature,
+        json_mode=True,
+        max_tokens=max_tokens,
+    )
     # tolerate fenced / trailing text
     start, end = raw.find("{"), raw.rfind("}")
     if start >= 0 and end > start:

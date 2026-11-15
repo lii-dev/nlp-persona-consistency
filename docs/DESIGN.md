@@ -17,9 +17,15 @@
 
 - G0→G1：档案增量
 - G1→G2：校验增量
-- G2+：历史人设回溯（展望2）
-- L1+L2：分层校验（展望1）
-- 多角色 demo：展望3（case study，不进指标）
+- G2+：RAG 人设记忆（嵌入检索 + 动态 consolidate，展望2）
+- L1+L2：分层校验；L2 含隐晦冲突 few-shot（展望1）
+- 多角色协同：每人独立档案+校验+记忆，共享对话上下文（展望3）
+
+## 2.1 三条展望落地
+
+1. **语义校验增强**：VERIFY_PROMPT 增加隐含冲突类型 (e) 与 hard/soft few-shot。
+2. **RAG 记忆**：`PersonaMemoryBank` 使用 `text-embedding-v3` 检索；抽取事实后动态更新，漂移事实可被 consolidate 丢弃。
+3. **多角色**：`src/multi_role.py` 并行维持多人设并协同对话。
 
 ## 3. 探针设计（每人 10 轮）
 
